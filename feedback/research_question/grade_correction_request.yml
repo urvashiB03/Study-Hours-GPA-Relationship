@@ -1,0 +1,25 @@
+# Use this form to submit requests for mark corrections for coursework deliverables.
+
+# Write your group name.
+group: a_group 101
+
+# Write the name of the deliverable requiring correction.
+deliverable: research question
+
+# Write the *original* deadline for the deliverable requiring correction.
+deadline: 10 Nov 2023 by 23:59
+
+# Write the date on which you submitted the deliverable.
+submitted: 10 Nov 2023 at 17:52
+
+# Write the commit id (hash) for the commit on the above date.
+commit_id: 88c9597112f5e28a22184d2be8bad3318b9a9e4e
+
+# Write the requested corrections in the list below.  Be sure to use correct YAML syntax, especially for the *reason* field, the text of which needs to be indented at least *four* spaces from the left.
+
+corrections:
+- component: partE writing
+  current_mark: Little of Merit
+  correct_mark: Excellent
+  reason: |
+    The reason we are requesting the grade correction is because in the partE writing part of the feedback, it is mentioned that "studyweek" is spelled incorrectly. However, in our research question as well as in our hypotheses, we did not used the word "studyweek". studyweek is the independent variable and it is mentioned as is against the independent-var key in the research_question.yml file. It is therefore requested to kindly review this part of the assignment. 
